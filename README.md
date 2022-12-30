@@ -1,2 +1,2 @@
-# Cubic-game
+# Cubic-Maze
 Cubic-Maze
