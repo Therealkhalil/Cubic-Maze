@@ -32,8 +32,8 @@ public class MoveToClosestObject : MonoBehaviour
         run = true;
         rb.AddForce(new Vector3(inputx, 0f, inputz) * speed * Time.deltaTime,ForceMode.Impulse);
         }
-        Debug.Log(choose);
-        Debug.Log("You Won!");
+        Debug.Log("this is " + choose);
+        Debug.Log("You moved");
     }
 
     void OnCollisionEnter(Collision collision)
