@@ -6,6 +6,7 @@ TagManager:
   tags:
   - destination
   - Block
+  - Coin
   layers:
   - Default
   - TransparentFX
