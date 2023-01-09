@@ -15,9 +15,12 @@ public class SceneSwitcher : MonoBehaviour
     }
     public void Back()
     {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 6);
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 7);
     }
-
+    public void leave()
+    {
+        Application.Quit();
+    }
     IEnumerator LoadLevel(int levelIndex)
     { 
     transition.SetTrigger("Start");
