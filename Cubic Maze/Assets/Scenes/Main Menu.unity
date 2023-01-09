@@ -781,7 +781,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6128977151898550640, guid: 98cccea0fde67bb4b8b6ac2e72c18ee5, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -3.04
+      value: -2.38
       objectReference: {fileID: 0}
     - target: {fileID: 6128977151898550640, guid: 98cccea0fde67bb4b8b6ac2e72c18ee5, type: 3}
       propertyPath: m_LocalRotation.w
@@ -821,6 +821,24 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 98cccea0fde67bb4b8b6ac2e72c18ee5, type: 3}
+--- !u!1 &1174235784 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6128977151898550645, guid: 98cccea0fde67bb4b8b6ac2e72c18ee5, type: 3}
+  m_PrefabInstance: {fileID: 1174235783}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1174235785
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1174235784}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fde75aa0693a1be40b049e89c2ace6a3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  smoothFactor: 0.3
 --- !u!1001 &1266439546
 PrefabInstance:
   m_ObjectHideFlags: 0
