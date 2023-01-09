@@ -797,6 +797,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SceneTransition
       objectReference: {fileID: 0}
+    - target: {fileID: 4327340161204023361, guid: bb383d177e4489a499d2c56e057db23a, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4327340161204023363, guid: bb383d177e4489a499d2c56e057db23a, type: 3}
       propertyPath: m_RootOrder
       value: 7

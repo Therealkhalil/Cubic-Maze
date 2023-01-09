@@ -8,6 +8,7 @@ public class playermvt : MonoBehaviour
     private float inputx, inputz,firstinputx,firstinputz;
     [SerializeField] private float speed = 10f;
     private bool moving = false;
+    [SerializeField] private SceneSwitcher _scswitch;
 
 
     // Start is called before the first frame update
@@ -50,6 +51,10 @@ public class playermvt : MonoBehaviour
             moving = false;
             firstinputx = 0f;
             firstinputz = 0f;
+        }
+        if (collision.gameObject.tag == "Finish")
+        {
+            _scswitch.playGame();
         }
     }
 }
