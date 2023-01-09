@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class playermvt : MonoBehaviour
 {
@@ -23,6 +24,7 @@ public class playermvt : MonoBehaviour
         inputx = Input.GetAxisRaw("Horizontal");
         inputz = Input.GetAxisRaw("Vertical");
         movement();
+        restart();
     }
 
 
@@ -43,6 +45,11 @@ public class playermvt : MonoBehaviour
             _rb.velocity = new Vector3(firstinputx, 0f, firstinputz) * speed;
     }
 
+    void restart()
+    {
+        if(Input.GetKeyDown(KeyCode.R))
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+    }
 
     private void OnCollisionEnter(Collision collision)
     {
