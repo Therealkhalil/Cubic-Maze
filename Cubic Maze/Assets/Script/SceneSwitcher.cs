@@ -7,7 +7,7 @@ using static System.TimeZoneInfo;
 public class SceneSwitcher : MonoBehaviour
 {
     public Animator transition;
-    public float transitionTime = 0.1f;
+    public float transitionTime = 1f;
     public void playGame()
     {
         //SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);

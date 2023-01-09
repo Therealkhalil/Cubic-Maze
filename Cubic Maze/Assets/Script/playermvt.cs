@@ -52,7 +52,11 @@ public class playermvt : MonoBehaviour
             firstinputx = 0f;
             firstinputz = 0f;
         }
-        if (collision.gameObject.tag == "Finish")
+        
+    }
+    private void OnTriggerEnter(Collider other)
+    {
+        if (other.gameObject.tag == "Finish")
         {
             _scswitch.playGame();
         }
